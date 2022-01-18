@@ -1,4 +1,4 @@
-module circle-k
+module leander
 
 go 1.17
 
