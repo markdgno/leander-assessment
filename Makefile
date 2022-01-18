@@ -1,5 +1,5 @@
 SHELL=/bin/bash
-APP=circle-k
+APP=leander
 APP_COMMIT=$(shell git rev-parse HEAD)
 ALL_PACKAGES=$(shell go list ./... | grep -v "vendor")
 SOURCE_DIRS=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
